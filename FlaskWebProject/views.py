@@ -35,6 +35,7 @@ def home():
         'index.html',
         title='Home Page',
         posts=posts
+        log = log
     )
 
 @app.route('/new_post', methods=['GET', 'POST'])
