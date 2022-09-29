@@ -100,7 +100,6 @@ def authorized():
         # Here, we'll use the admin username for anyone who is authenticated by MS
         user = User.query.filter_by(username="admin").first()
         login_user(user)
-        
         _save_cache(cache)
     return redirect(url_for('home'))
 
