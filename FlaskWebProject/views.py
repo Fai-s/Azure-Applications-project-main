@@ -110,7 +110,6 @@ def logout():
         return redirect(
             Config.AUTHORITY + "/oauth2/v2.0/logout" +
             "?post_logout_redirect_uri=" + url_for("login", _external=True))
-
     return redirect(url_for('login'))
 
 def _load_cache():
