@@ -4,8 +4,8 @@ This project is a Python web application built using Flask. The user can log in 
 
 ## Log In Credentials for FlaskWebProject
 
-- Username: projectadmin
-- Password: Project123
+- Username: admin
+- Password: pass
 
 Or, once the MS Login button is implemented, it will automatically log into the `admin` account.
 
